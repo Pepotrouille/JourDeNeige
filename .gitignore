@@ -70,3 +70,8 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+MemorySettings.asset
+.idea/.idea.JourDeNeige/.idea/.gitignore
+.idea/.idea.JourDeNeige/.idea/encodings.xml
+.idea/.idea.JourDeNeige/.idea/indexLayout.xml
+.idea/.idea.JourDeNeige/.idea/vcs.xml

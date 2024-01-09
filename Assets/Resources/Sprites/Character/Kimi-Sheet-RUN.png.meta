@@ -93,7 +93,7 @@ TextureImporter:
       213: -2432222066321275459
     second: Kimi-Sheet-RUN_29
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -110,10 +110,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -152,6 +154,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -163,6 +167,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -175,6 +180,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -187,6 +193,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -199,6 +206,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -844,9 +878,39 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Kimi-Sheet-RUN_0: 3029776051578064698
+      Kimi-Sheet-RUN_1: 668085626069667588
+      Kimi-Sheet-RUN_10: -4092065895708897377
+      Kimi-Sheet-RUN_11: 8246161771700685771
+      Kimi-Sheet-RUN_12: 4503080807556838419
+      Kimi-Sheet-RUN_13: 3194381882563099047
+      Kimi-Sheet-RUN_14: -7210358965585624730
+      Kimi-Sheet-RUN_15: 4032427694015573495
+      Kimi-Sheet-RUN_16: -4378069159340071741
+      Kimi-Sheet-RUN_17: 5267185633137366904
+      Kimi-Sheet-RUN_18: 2510550751962571371
+      Kimi-Sheet-RUN_19: 798770860897050315
+      Kimi-Sheet-RUN_2: 8575089895430651454
+      Kimi-Sheet-RUN_20: 3360648945010022075
+      Kimi-Sheet-RUN_21: 4568174695287203222
+      Kimi-Sheet-RUN_22: -8339028766732319553
+      Kimi-Sheet-RUN_23: 3422949853782359735
+      Kimi-Sheet-RUN_24: 7281520336399757039
+      Kimi-Sheet-RUN_25: 7663926710641250277
+      Kimi-Sheet-RUN_26: -5563707106988169019
+      Kimi-Sheet-RUN_27: 8504571224759503064
+      Kimi-Sheet-RUN_28: 5747434605405738317
+      Kimi-Sheet-RUN_29: -2432222066321275459
+      Kimi-Sheet-RUN_3: -1376994585203730501
+      Kimi-Sheet-RUN_4: -8701001790045316557
+      Kimi-Sheet-RUN_5: -4347052192216250426
+      Kimi-Sheet-RUN_6: -7856664257053836892
+      Kimi-Sheet-RUN_7: 5609017357505461763
+      Kimi-Sheet-RUN_8: 31884995100711624
+      Kimi-Sheet-RUN_9: 436500874890734992
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
