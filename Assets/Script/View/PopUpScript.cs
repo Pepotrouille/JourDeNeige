@@ -1,22 +1,17 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
+using UnityEngine.UI;
 
 public class PopUpScript : MonoBehaviour
 {
-    public TextMeshProUGUI text;
-    public SpriteRenderer spriteRenderer;
-
-    // Start is called before the first frame update
+    [SerializeField] private TextMeshProUGUI text;
+    [SerializeField] private Image dialoguePortraitImage;
+    // public SpriteRenderer spriteRenderer; // 'spriteRenderer' field name was too vague. Changing it to 'dialoguePortraitImage'
     
-
-
     public void SetPopUp(string message, PopUpManager.PopUpImage image)
     {
         //SetImage
-        spriteRenderer.sprite = Resources.Load<Sprite>("Sprites/UI/" + image.ToString());
+        dialoguePortraitImage.sprite = Resources.Load<Sprite>("Sprites/UI/" + image.ToString());
         text.text = message;
     }
 
